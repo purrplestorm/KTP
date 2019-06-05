@@ -1,0 +1,158 @@
+head
+{
+    background: RGB(0, 218, 205);
+}
+
+body {
+	background: RGB(150, 218, 205);
+	font-family: Tahoma, Arial, sans-serif;
+	color: RGB(11, 93, 77);
+}
+
+.picture
+{
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+
+.log-link
+{
+    margin-left: 180;
+}
+
+.header {
+    
+    background: RGB(202, 234, 228);
+    font-family: Tahoma, Arial, sans-serif;
+    color: RGB(11, 93, 77);
+    width: 101%;
+    margin-left: -7;
+    margin-top: -10;
+    margin-right: auto;
+}
+
+
+
+.service-title
+{
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.header-text-area
+{
+    font-size: 21pt;
+    margin-top: 30px;
+    margin-left: 45px;
+    float:left;
+}
+
+
+.icons-for-parallax {
+    margin-top: 300px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: left;
+}
+
+.icons-for-parallax img {
+    /* здесь находятся общие для всех картинок стили */
+    position: absolute;
+    top: 0; }
+
+.icon-for-parallax-first {
+    width: 160px;
+    margin-top: 13%;
+    margin-left: 27%;
+    z-index: 3; /* эта картинка на переднем плане, у неё больший z-index
+                 */
+}
+
+.icon-for-parallax-second {
+    width: 135px; /* уменьшить ширину для картинки, чтобы визуально */
+    /* находилась дальше для пользователя */
+    margin-top: 10%; /* эта картинка слегка смещена вправо и вниз */
+    margin-left: 30%; /* за счет левой и верхней границ */
+    z-index: 2;
+}
+
+.icon-for-parallax-third{
+    width: 110px;
+    margin-left: 33%;
+    margin-top: 7%;
+    z-index: 1; /* эта картинка на заднем плане, у неё меньший z-index */
+}
+
+
+
+
+
+
+
+
+.article h1 {
+	background: #1abc9c;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.archive {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-author {
+	width: 50%;
+    font-weight: 600;
+}
+
+.article-created-date {
+	text-align: right;
+} 
+
+.to-archive {
+	background: #1abc9c;
+	font-family: Tahoma, Arial, sans-serif;
+	text-align: right;
+}
+
+.to-archive a
+{
+	color: #ffffff;
+}
+
+.post-title {
+	width: 60%;
+	float: left;
+}
+
+.fold-button {
+	margin: 28 auto 0;
+	float: right;
+    color: rgb(11, 93, 77);
+    font-weight: 600;
+}
+
+.one-post.folded .article-info,
+.one-post.folded .article-text {
+	display: none;
+}
+
+.one-post {
+	position: relative;
+}
+
+.one-post-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: -1;
+    opacity: 0
+}
+
